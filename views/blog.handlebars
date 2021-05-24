@@ -1,0 +1,18 @@
+<div>
+  {{> blog-details blog}}
+  {{> comment-details comment}}
+  <section class="blog-post">
+      <h3 class="card-header"></h3>
+      <form class="card-body comment-form" id="comment-form">
+
+          <label class="form-label">New Comment</label>
+          <input id="comment" name="comment-body" class="form-input" />
+
+          <button type="submit" class="btn">Submit</button>
+      </form>
+  </section>
+</div>
+
+
+<script src="./js/new-comment.js"></script> 
+

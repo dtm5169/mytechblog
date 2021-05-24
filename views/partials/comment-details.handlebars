@@ -1,0 +1,7 @@
+<section class="blog-post">
+    {{#each comments as |comment|}}
+    <p>By: {{blog.comment.user.username}}</p>
+    <p>Posted on: {{ format_date blog.comment.post_date}}</p>
+    <p> {{blog.comment.text}}</p>
+    {{/each}}
+</section>
