@@ -9,3 +9,5 @@ User Story
 AS A developer who writes about tech
 I WANT a CMS-style blog site
 SO THAT I can publish articles, blog posts, and my thoughts and opinions
+
+![techblog](https://user-images.githubusercontent.com/76463522/125367241-cc041400-e345-11eb-8f68-63953e7974ce.png)
